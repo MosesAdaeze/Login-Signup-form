@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-section {
+main {
     display: flex;
     padding-top: 400px;
     align-items: center;
@@ -34,4 +34,28 @@ section {
 
 #signup-button {
     padding-top: 15px;
+}
+
+/* each button container  */
+/* login container */
+
+section {
+    width: 55%;
+    height: 30%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+
+.field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
 }
