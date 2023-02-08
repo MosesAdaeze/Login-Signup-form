@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    padding-top: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home h1 {
+    font-size: 40px;
+}
+
+
+.button {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    width: 50%;
+    height: 35px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px rgb(0,0,0 ,0.8);
+    border: none;
+    font-size: medium;
+    font-weight: 900;
+}
+
+#signup-button {
+    padding-top: 15px;
+}
