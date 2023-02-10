@@ -94,7 +94,7 @@ article {
     border: none;
 }
 
-span {
+.login-content article span {
     padding-top: 25px;
 }
 
@@ -114,8 +114,8 @@ span {
 /* signup-container  */
 
 .signup-container {
-    width: 90%;
-    height: 60%;
+    width: 100%;
+    height: 82%;
     background-color: pink;
     border: solid red;
     position: fixed;
@@ -139,7 +139,7 @@ span {
     justify-content: center;
     flex-direction: column;
     padding-right:  150px;
-    margin: 3px 10px;
+    padding-left: 50px;
 }
 
 section {
@@ -147,8 +147,9 @@ section {
     font-weight: 700;
 }
 
+
 .signup {
-    width: 170%;
+    width: 130%;
     height: 60px;
     padding-top: 15px;
     padding-left: 5px;
@@ -160,12 +161,30 @@ section {
     border: none;
 }
 
-@media (min-width: 1000px) {
-    .signup {
-        width: 230%;
-    }
+.enter-button {
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+}
 
-    .signup-content h1 {
-        padding-left: 100px;
-    }
+.enter-button button {
+    width: 45%;
+    height: 35px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px rgb(0,0,0 ,0.8);
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.signup-content section span {
+    padding-top: 10%;
+}
+
+@media (max-width: 412px) {
+    section {
+        padding-left: 50px;
+    }  
 }
