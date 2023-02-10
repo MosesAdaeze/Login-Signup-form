@@ -110,3 +110,62 @@ span {
 }
 
 /* end login container */
+
+/* signup-container  */
+
+.signup-container {
+    width: 90%;
+    height: 60%;
+    background-color: pink;
+    border: solid red;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    display: none;
+}
+
+.signup-container h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.signup-content section {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right:  150px;
+    margin: 3px 10px;
+}
+
+section {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.signup {
+    width: 170%;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Black Han Sans', sans-serif;
+    background-color: rgb(197, 169, 224);
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.6);
+    border: none;
+}
+
+@media (min-width: 1000px) {
+    .signup {
+        width: 230%;
+    }
+
+    .signup-content h1 {
+        padding-left: 100px;
+    }
+}
