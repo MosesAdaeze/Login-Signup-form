@@ -97,6 +97,12 @@ form {
     border: none;
 }
 
+input span {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
 .login-content form span {
     padding-top: 25px;
 }

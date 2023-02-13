@@ -25,7 +25,7 @@ const nameRegex = /^[a-zA-Z]+$/;
 const Passwrdformat = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
 
 SignUp.addEventListener('click', () => {
-    console.log("SHUTUPPPPPP")
+    console.log("NUll")
     if (FirstName.value.length > 0 && LastName.value.length > 0 && Email.value.length > 0 && SignupUsername.value.length > 0) {
         if (SignUpPass.value.length >= 8) {
             if (FirstName.value.match(nameRegex) || LastName.value.match(nameRegex) || Email.value.match(mailformat) || SignupUsername.value.match(nameRegex) || SignUpPass.value.match(Passwrdformat)) {
@@ -51,12 +51,12 @@ SignUp.addEventListener('click', () => {
 
 
 SignIn.addEventListener('click', () => {
-    console.log("SCREEEEAAAAMMMMMM")
+    console.log("Null")
     if (LoginUsername.value.length > 0 && SignInPass.value.length > 0) {
         console.log(LoginUsername.value);
         console.log(SignInPass.value);
         if (LoginUsername.value.match(nameRegex) || SignInPass.value.match(Passwrdformat)) {
-            alert("Welcome back, " + LoginUsername.value + "!");
+            alert("Welcome, " + LoginUsername.value + "!");
             var url = './test.html';
             window.open(url, '_self');
             return;
@@ -67,7 +67,7 @@ SignIn.addEventListener('click', () => {
             Home.classList.add("right-panel-active");
         }
     } else {
-        alert("Fields cannot be empty");
+        alert("Empty field, input items");
     }
 });
 
