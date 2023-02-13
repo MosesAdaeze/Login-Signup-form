@@ -19,20 +19,38 @@
 
         <div class="login-container" id="login-container">
             <div class="login-content" >
-                <h1>Login</h1>
-                <article>
+                <div id="home">
+                    <div class="form-container" id="signin-container">
+                        <form action="GET" id="login">
+                            <h1>Login</h1>
+                            <input type="text" name="myname" class="name" id="myname" placeholder="Username" required>
+                            <input type="password" name="mypassword" id="mypassword1" placeholder="Password" required>
+                            <input type="button" id="enter" class="button" value="Sign In">
+                        </form>
+                    </div>
+                </div>
+                <!-- <article>
                     Username:<textarea class="login" ></textarea>
                     <span>Password:<textarea class="login" id="login" ></textarea></span>
-                    <div class="login-button" id="login-button" ><button onclick="opensignuppage()" > Login </button></div>
-                </article>
+                </article> -->
             </div>
         </div>
 
 
         <div class="signup-container" id="signup-container" >
             <div class="signup-content" >
-                <h1>Sign Up</h1>
-                <section>
+                <div class="form-container" id="signup-container">
+                    <form action="POST " id="registration">
+                        <h2>Sign Up</h2>
+                        <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+                        <input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
+                        <input type="text" name="username" id="username" placeholder="Username" required>
+                        <input type="email" name="myname" id="mymail" placeholder="Email" required>
+                        <input type="password" name="mypassword" id="mypassword" placeholder="Password" required>
+                        <input type="button" id="sign" value="Sign Up">
+                    </form>
+                </div>
+                <!-- <section>
                     Firstname:<textarea class="signup" ></textarea>
                     <span>Username:<textarea  id="username" class="signup" ></textarea></span>
                     <span>Email:</span><textarea  name="umail" class="signup" ></textarea></span>
@@ -40,7 +58,7 @@
                     <span>Confirm Password:<textarea class="signup" ></textarea></span>
 
                     <div class="enter-button" id="enter-button" ><button onclick="opensignuppage()" > Enter </button></div>
-                </section>
+                </section> -->
             </div>
         </div>
 
